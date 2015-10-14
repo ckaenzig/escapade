@@ -9,7 +9,9 @@ description: "L'escapade, un lieu d'accompagnement et d'activité pour séniors,
 # Color settings (hex-codes without the leading hash-tag)
 color:
   text: '#4a4640'
+  text_rgb: 74,70,64
   white: '#fefcfa'
+  white_rgb: 254,252,250
   links: '#219ab3'
 
 # Footer settings
