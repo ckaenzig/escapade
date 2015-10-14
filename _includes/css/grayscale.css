@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #4a4640;
+    color: {{ site.color.text }};
     background-color: {{ site.color.background }};
 }
 
@@ -25,7 +25,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Kalam',cursive;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -63,9 +63,9 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(200,200,200,.3);
+    border-bottom: 1px solid rgba(0,0,0,.1);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Kalam',cursive;
     background-color: {{ site.color.background }};
 }
 
@@ -88,6 +88,11 @@ a:focus {
 }
 
 .navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom.top-nav-collapse a {
+    color: {{ site.color.text }};
 }
 
 .navbar-custom .nav li.active {
