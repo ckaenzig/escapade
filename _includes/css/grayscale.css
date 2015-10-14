@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Merriweather,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: {{ site.color.text }};
-    background-color: {{ site.color.background }};
+    background-color: {{ site.color.white }};
 }
 
 html {
@@ -64,7 +64,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(0,0,0,.1);
     font-family: 'Kalam',cursive;
-    background-color: {{ site.color.background }};
+    background-color: {{ site.color.white }};
 }
 
 .navbar-custom .navbar-brand {
@@ -86,7 +86,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: {{ site.color.white }};
 }
 
 .navbar-custom.top-nav-collapse a {
@@ -124,7 +124,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: {{ site.color.background }};
+        background-color: {{ site.color.white }};
     }
 
     .navbar-custom.top-nav-collapse {
@@ -138,9 +138,9 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: {{ site.color.white }};
     background: url({{ site.baseurl }}/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: {{ site.color.background }};
+    background-color: {{ site.color.white }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -180,10 +180,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid {{ site.color.white }};
     border-radius: 35px;
     font-size: 40px;
-    color: #fff;
+    color: {{ site.color.white }};
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -193,7 +193,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: {{ site.color.white }};
     background: rgba(255,255,255,.1);
 }
 
@@ -258,7 +258,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     background: url({{ site.baseurl }}/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.background }};
+    background-color: {{ site.color.white }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -294,7 +294,7 @@ a:focus {
 .btn-default:focus {
     border: 1px solid {{ site.color.links }};
     outline: 0;
-    color: {{ site.color.background }};
+    color: {{ site.color.white }};
     background-color: {{ site.color.links }};
 }
 
