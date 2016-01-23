@@ -64,7 +64,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba({{ site.color.text_rgb }},.1);
     font-size: 18px;
-    font-family: 'Kalam',cursive;
+    /*font-family: 'Kalam',cursive;*/
     background-color: {{ site.color.white }};
 }
 
